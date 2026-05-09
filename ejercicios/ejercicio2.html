@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 2</title>
+<link rel="stylesheet" href="../estilo.css">
+</head>
+
+<body>
+
+<h1>2. Número par o impar</h1>
+
+<p id="resultado"></p>
+
+<script>
+let numero = 12;
+let mensaje = "";
+
+if(numero % 2 == 0){
+    mensaje = "El número 12 es PAR";
+}else{
+    mensaje = "El número 12 es IMPAR";
+}
+
+document.getElementById("resultado").innerHTML = mensaje;
+</script>
+<a href="../index.html" class="volver"> Volver al menú</a>
+</body>
+</html>

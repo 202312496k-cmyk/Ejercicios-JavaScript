@@ -1,0 +1,7 @@
+let texto = "";
+
+for(let i = 1; i <= 10; i++){
+    texto += "7 x " + i + " = " + (7 * i) + "<br>";
+}
+
+document.getElementById("resultado").innerHTML = texto;
